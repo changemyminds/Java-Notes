@@ -14,6 +14,8 @@ public class Main {
             /* 印出錯誤訊息 */
             System.out.println("ArithmeticException: " + arEx.getMessage());
             //ArithmeticException: / by zero
+        } finally {
+            System.out.println("結束處理");
         }
 
         try
@@ -29,6 +31,9 @@ public class Main {
             //at com.company.Main.main(Main.java:21)
             //
         }
+        finally {
+            System.out.println("結束處理");
+        }
 
         try {
             FileInputStream inputStream = new FileInputStream("someText.text");
@@ -43,6 +48,8 @@ public class Main {
             //java.io.FileInputStream.<init>(FileInputStream.java:138)
             //java.io.FileInputStream.<init>(FileInputStream.java:93)
             //com.company.Main.main(Main.java:30)
+        } finally {
+            System.out.println("結束處理");
         }
     }
 }
