@@ -5,7 +5,7 @@
   * ``` arrayEx.printStackTrace(new PrintWriter(stringWriter));
         System.out.println(stringWriter.toString()); 
     ```
-  * ```java 
+  * ```
         StackTraceElement[] ste = e.getStackTrace();
         for (StackTraceElement stackTraceElement : ste)
         System.out.println(stackTraceElement.toString());
