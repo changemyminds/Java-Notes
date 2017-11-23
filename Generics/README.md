@@ -13,7 +13,7 @@
 <br><br>
 
 ## [Example 2](https://github.com/changemyminds/Java-Notes/tree/master/Generics/Example2)
-### StudentDemo
-- 瞭解 Wildcards(通用型別)
-### ShapeDemo
-- 瞭解 Bounded Wildcards(限制類型的通用型別)
+- StudentDemo
+  - 瞭解 Wildcards(通用型別)
+- ShapeDemo
+ - 瞭解 Bounded Wildcards(限制類型的通用型別)
