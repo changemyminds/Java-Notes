@@ -1,6 +1,6 @@
 # 例外機制(Exception)
 
-### [Example1(顯示例外機制的錯誤訊息)](https://github.com/changemyminds/Java-Notes/tree/master/Exception/Example1)
+## [Example1(顯示例外機制的錯誤訊息)](https://github.com/changemyminds/Java-Notes/tree/master/Exception/Example1)
   * 印出錯誤訊息
     ```java
     System.out.println("ArithmeticException: " + arEx.getMessage()); 
