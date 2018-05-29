@@ -4,12 +4,14 @@
 - class命名方式
     - 起頭為大寫之後採用駝峰式命名法。如:Demo.class。<br>
 - Interface命名方式
-    - 若作為介面等等，則命名方式加上I，如：IAction等。
+    - 若作為介面等等，則起頭加上大寫I，如：IAction等。
     - 若作為callback使用時(即作為listener)，則命名結尾加上listener，如:IStateListener等。
 - Abstract命名方式
     - 起頭加上Abs，如：AbsAnimal等。
 
 ## 變數和方法命名方式
+- static變數
+    - 若無其他修飾詞時，如final等時，則一率小寫如：```java private static int count = 0;```
 static變數，則為一率為小寫。如：private static int count = 0;<br>
 static變數，加上修飾詞final。如：private static final int COUNT = 0;<br>
 class field變數，命名方式再起頭加上m之後藉由駝峰式命名法，如: private boolean mIsThredStop = false;<br>
