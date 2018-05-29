@@ -1,10 +1,13 @@
 ﻿# Java 筆記
 
 ## 類別命名方式
-class的命名方式為大寫。如:Demo.class。<br>
-Interface若作為介面等等，則命名方式加上I，如：IAction等。<br>
-Interface若作為callback使用時(即作為listener)，則命名結尾加上listener，如:IStateListener等。<br>
-Abstract的命名方式為起頭加上Abs，如：AbsAnimal等。<br>
+- class命名方式
+    - 起頭為大寫之後採用駝峰式命名法。如:Demo.class。<br>
+- Interface命名方式
+    - 若作為介面等等，則命名方式加上I，如：IAction等。
+    - 若作為callback使用時(即作為listener)，則命名結尾加上listener，如:IStateListener等。
+- Abstract命名方式
+    - 起頭加上Abs，如：AbsAnimal等。
 
 ## 變數和方法命名方式
 static變數，則為一率為小寫。如：private static int count = 0;<br>
