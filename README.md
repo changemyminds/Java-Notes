@@ -2,7 +2,10 @@
 
 ## 類別命名方式
 - class命名方式
-    - 起頭為大寫之後採用駝峰式命名法。如:Demo.class。<br>
+    - 起頭為大寫之後採用駝峰式命名法。如:
+    ```java 
+    Demo.class。
+    ```
 - Interface命名方式
     - 若作為介面等等，則起頭加上大寫I，如：IAction等。
     - 若作為callback使用時(即作為listener)，則命名結尾加上listener，如:IStateListener等。
