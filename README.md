@@ -22,7 +22,7 @@
     ```        
 
 ## 變數和方法命名方式
-- static變數
+- class static field (類別靜態變數)
     - 若無其他修飾詞時，則一率小寫，例如：
     ```java 
     private static int count = 0;
@@ -31,13 +31,20 @@
     ```java 
     private static final int COUNT = 0;
     ```
-- class field變數
+- class non-static field (類別變數)
     - 起頭加上m之後藉由駝峰式命名法
     ```java 
     private boolean mIsThredStop = false;
+    private Socket mSocket = null;
+    ```
+    - 變數一率給予初始值，方便作為辨識。
+    ```java 
+    private int mCount;
+    // 將上方mCount給予初始值
+    private int mCount = 0;
     ```
 - function
-    - 起頭小寫之後藉由駝峰式命名法，盡量使用getXXX、setXXX、isXXX等方式命名，例如：
+    - 起頭小寫之後藉由駝峰式命名法，盡量使用getXXX、setXXX、isXXX等方式命名，例如：<br>
     getter、 setter
     ```java 
     public int getCount(){return 0;}
