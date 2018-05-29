@@ -43,9 +43,9 @@
     // 將上方mCount給予初始值，改為下方
     private int mCount = 0;
     ```
-- Local variables（區域變數）、 method Parameters（方法變數）
+- Local variables（區域變數）、 Method Parameters（方法變數）
     - 與Static Fields、Class Variables(靜態變數) 相同。
-- method
+- Ｍethod
     - 起頭小寫之後藉由駝峰式命名法，盡量使用getXXX、setXXX、isXXX等方式命名，例如：    
     ```java
     // getter 
