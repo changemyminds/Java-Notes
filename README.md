@@ -11,7 +11,9 @@
 
 ## 變數和方法命名方式
 - static變數
-    - 若無其他修飾詞時，如final等時，則一率小寫如： ``` private static int count = 0; 
+    - 若無其他修飾詞時，如final等時，則一率小寫如：
+    ```java 
+    private static int count = 0;
     ```
 static變數，則為一率為小寫。如：private static int count = 0;<br>
 static變數，加上修飾詞final。如：private static final int COUNT = 0;<br>
