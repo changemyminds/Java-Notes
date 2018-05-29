@@ -4,7 +4,7 @@
 - class
     - 起頭為大寫之後採用駝峰式命名法。例如:
     ```java 
-    Demo.class
+    DemoSystem.class
     ```
 - Interface
     - 若作為介面等等，則起頭加上大寫I，例如：
@@ -43,8 +43,8 @@
     // 將上方mCount給予初始值，改為下方
     private int mCount = 0;
     ```
-- Local variables、method Parameters（區域變數）
-    - 與Static Fields、Class Variables 相同。
+- Local variables（區域變數）、 method Parameters（方法變數）
+    - 與Static Fields、Class Variables(靜態變數) 相同。
 - method
     - 起頭小寫之後藉由駝峰式命名法，盡量使用getXXX、setXXX、isXXX等方式命名，例如：    
     ```java
@@ -52,8 +52,7 @@
     public int getCount(){return 0;}
     // setter
     public void setCount(int count){mCount = count;}
-    ```
-    - 
+    ```    
 
 ## 題目練習區
 - [泛型(Generics)](https://github.com/changemyminds/Java-Notes/tree/master/Generics)
